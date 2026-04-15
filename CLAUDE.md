@@ -23,7 +23,7 @@ These skills are designed to work together as a pipeline:
                                                   /ce:compound
 ```
 
-The `/brainstorming`, `/ce:plan`, `/ce:work`, `/ce:review`, and `/ce:compound` skills come from the [Compound Engineering plugin](https://github.com/anthropics/claude-code/blob/main/docs/plugins.md). Install it separately — see docs/installation.md.
+The `/brainstorming`, `/ce:plan`, `/ce:work`, `/ce:review`, and `/ce:compound` skills come from the [Compound Engineering plugin](https://github.com/EveryInc/every-marketplace) by [Every](https://every.to). Install it separately — see docs/installation.md.
 
 ## Conventions
 

@@ -10,21 +10,18 @@ Get the full OSS workflow running in Claude Code from scratch.
 
 ## Step 1: Install Compound Engineering Plugin (backbone skills)
 
-The core planning/building/reviewing skills come from the Compound Engineering plugin. Install it:
+The core planning/building/reviewing skills come from the [Compound Engineering plugin](https://github.com/EveryInc/every-marketplace) by [Every](https://every.to). Install it:
 
 ```bash
 # In Claude Code, run:
-/install-plugin compound-engineering
+/plugin marketplace add https://github.com/EveryInc/every-marketplace
+/plugin install compounding-engineering
 ```
 
-Or manually add to your Claude Code settings:
+Or via the Claude Plugins CLI:
 
-```json
-{
-  "plugins": [
-    "compound-engineering"
-  ]
-}
+```bash
+npx claude-plugins install @EveryInc/every-marketplace/compounding-engineering
 ```
 
 This gives you:

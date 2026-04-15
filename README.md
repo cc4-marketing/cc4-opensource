@@ -44,10 +44,12 @@ ln -s $(pwd)/cc4-opensource/skills/contribute ~/.claude/skills/contribute
 ln -s $(pwd)/cc4-opensource/skills/landing-page ~/.claude/skills/landing-page
 ```
 
-### 2. Also install [Compound Engineering](https://github.com/anthropics/claude-code) plugin
+### 2. Also install [Compound Engineering](https://github.com/EveryInc/every-marketplace) plugin by [Every](https://every.to)
 
 ```bash
-/install-plugin compound-engineering
+# Add the Every marketplace, then install the plugin
+/plugin marketplace add https://github.com/EveryInc/every-marketplace
+/plugin install compounding-engineering
 ```
 
 ### 3. Use
@@ -254,7 +256,7 @@ cc4-opensource/
 | Tool | Required | Used By |
 |------|----------|---------|
 | [Claude Code](https://claude.ai/code) | Yes | All skills |
-| [Compound Engineering plugin](https://github.com/anthropics/claude-code) | Yes | Plan/Build/Review/Compound phases |
+| [Compound Engineering plugin](https://github.com/EveryInc/every-marketplace) (by [Every](https://every.to)) | Yes | Plan/Build/Review/Compound phases |
 | [GitHub CLI (`gh`)](https://cli.github.com/) | Yes | `/release`, `/announce` |
 | [Wrangler](https://developers.cloudflare.com/workers/wrangler/) | Optional | `/release` deploy, `/landing-page deploy` |
 | [Sparkle](https://sparkle-project.org/) | Optional | `/release` EdDSA signing (macOS apps) |
